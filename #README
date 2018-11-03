@@ -1,0 +1,18 @@
+#README
+
+I made this python engine for the robotic hand. Feel free to use it.
+
+In order to run this, download all the files and put them into one folder on your Desktop. 
+Change your Terminal directory to the newly-created folder. cd ~ then cd Desktop then cd yourfolder
+Type "python central.py" to start the engine.
+
+Usage/Overview:
+The python script works by reading the individual letters you type in, and then running the assigned script to the letters.
+For example, if you type "hello", it will run the script assigned to H, then the script assigned E, then the script to L, then the script to L again, then finally the script to O.
+The scripts for the individual letter CAN BE CHANGED to do anything. The goal is to make the scripts move servos.
+Example: You type in hello. The script will move the servos according to what you've commanded in H file. Then the E, etc.
+
+
+
+I know the way I wrote this was all very confusing so pls feel free to ask questions. 
+ave fun
